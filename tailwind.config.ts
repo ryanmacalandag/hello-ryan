@@ -7,10 +7,21 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      'sans': "var(--font-sans)",
+      'serif': "var(--font-serif)",
+      'mono': "var(--font-mono)",
+    },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      backgroundImage: {
+        'paper-neutral': "url('/patterns/paper-neutral.png')",
+      },
+      aspectRatio: {
+        'portrait': '3 / 4',
       },
     },
   },
