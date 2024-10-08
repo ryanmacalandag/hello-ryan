@@ -20,9 +20,9 @@ export const portfolio:PortfolioType[] = [
   },
   {
     title: 'Australian Catholic Communications Congress',
-    url: '/portfolio/1.jpg',
-    slug: 'project1',
-    tags: '',
+    url: '/portfolio/media-congress-website-01.jpg',
+    slug: 'media-congress-website-01',
+    tags: 'event, website',
   },
   {
     title: 'Australian Catholic Communications Congress',
@@ -31,9 +31,9 @@ export const portfolio:PortfolioType[] = [
     tags: '',
   },
   {
-    title: 'Australian Catholic Communications Congress',
-    url: '/portfolio/3.webp',
-    slug: 'project3',
+    title: 'Mass for You at Home',
+    url: '/portfolio/mfyah-website-01.jpg',
+    slug: 'mfyah-website-01',
     tags: '',
   },
   {
@@ -50,8 +50,8 @@ export const portfolio:PortfolioType[] = [
   },
   {
     title: 'Australian Catholic Communications Congress',
-    url: '/portfolio/6.jpg',
-    slug: 'project6',
-    tags: '',
+    url: '/portfolio/mfyah-website-02.jpg',
+    slug: 'mfyah-website-02',
+    tags: 'mfyah website redesign strategy wordpress',
   },
 ];
