@@ -1,0 +1,32 @@
+import React from 'react'
+import { portfolio } from '@/app/data/portfolio';
+import Image from 'next/image';
+import BackButton from '@/app/components/BackButton';
+
+// Return a list of `params` to populate the [slug] dynamic segment
+export async function generateStaticParams() {
+  return portfolio.map((item) => ({
+    slug: item.slug,
+  }))
+}
+
+export default function Projects( { params }: { params: {slug:string} } ) {
+
+  const { slug } = params;
+  const getProject = portfolio.find((item) => item.slug == slug);
+
+  return (
+    <div className='w-full h-full max-h-dvh flex flex-col justify-center items-center gap-4 px-4 md:px-16 py-8 md:py-24'>
+      <BackButton />
+      <div className='group w-full max-w-screen-lg h-full aspect-portrait md:aspect-video overflow-hidden'>
+        <Image
+          src={getProject?.url ?? '/portfolio/yac.png'}
+          alt='gallery item'
+          width={1200}
+          height={1200}
+          className='w-full h-full object-cover bg-slate-500 scale-100 group-hover:scale-105 saturate-75 group-hover:saturate-100 transition duration-700'
+        />
+      </div>
+    </div>
+  )
+}

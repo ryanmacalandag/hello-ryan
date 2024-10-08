@@ -1,7 +1,9 @@
+import Link from "next/link";
 import { portfolio } from "./data/portfolio";
 import Image from "next/image";
+import Footer from "./components/Footer";
 
-export default function Home() {
+export default async function Home() {
 
   return (
     <section id="hero-01" className="w-full max-w-screen-xl mx-auto flex flex-col gap-12 sm:gap-16 lg:gap-20 px-6 md:px-16 py-24">
@@ -16,19 +18,25 @@ export default function Home() {
         {
           portfolio.map((item,key) => {
             return (
-              <Image
-                src={item.url}
-                alt='gallery item'
-                width={320}
-                height={320}
-                className='w-full h-fit rounded-xl aspect-portrait md:aspect-video object-cover mb-3 md:mb-6 shadow-xl bg-black scale-100 hover:scale-105 saturate-75 hover:saturate-100 transition duration-300'
+              <Link
                 key={key}
-              />
+                href={'/portfolio/' + item.slug}
+              >
+                <Image
+                  src={item.url}
+                  alt='gallery item'
+                  width={320}
+                  height={320}
+                  className='w-full h-fit rounded-xl aspect-portrait md:aspect-video object-cover mb-3 md:mb-6 shadow-xl bg-black scale-100 hover:scale-105 saturate-75 hover:saturate-100 transition duration-300'
+                />
+              </Link>
             )
           })
         }
 
       </div>
+
+      <Footer></Footer>
     
     </section>
   );

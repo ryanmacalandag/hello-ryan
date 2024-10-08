@@ -21,7 +21,7 @@ const config: Config = {
         'paper-neutral': "url('/patterns/paper-neutral.png')",
       },
       aspectRatio: {
-        'portrait': '3 / 4',
+        'portrait': '3 / 5',
       },
     },
   },
