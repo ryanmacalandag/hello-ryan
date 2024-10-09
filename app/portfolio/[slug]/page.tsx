@@ -24,7 +24,7 @@ export default function Projects( { params }: { params: {slug:string} } ) {
           alt='gallery item'
           width={1200}
           height={1200}
-          className='w-full h-full min-h-fit bg-slate-300 shadow-xl'
+          className='w-full h-fit object-cover bg-slate-300 shadow-xl'
         />
       </div>
     </div>
