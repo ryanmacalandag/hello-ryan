@@ -16,15 +16,15 @@ export default function Projects( { params }: { params: {slug:string} } ) {
   const getProject = portfolio.find((item) => item.slug == slug);
 
   return (
-    <div className='w-full h-full max-h-dvh flex flex-col justify-center items-center gap-4 px-4 md:px-16 py-8 md:py-24'>
+    <div className='w-full max-w-screen-xl h-full flex flex-col justify-center items-center gap-4 px-4 md:px-16 py-8 md:py-18'>
       <BackButton />
-      <div className='group w-full max-w-screen-lg h-full aspect-portrait md:aspect-video overflow-hidden'>
+      <div className='group w-full'>
         <Image
           src={getProject?.url ?? '/portfolio/yac.png'}
           alt='gallery item'
           width={1200}
           height={1200}
-          className='w-full h-full object-cover bg-slate-500 scale-100 group-hover:scale-105 saturate-75 group-hover:saturate-100 transition duration-700'
+          className='w-full h-full min-h-fit bg-slate-300 shadow-xl'
         />
       </div>
     </div>

@@ -25,10 +25,16 @@ export const portfolio:PortfolioType[] = [
     tags: 'event, website',
   },
   {
-    title: 'Australian Catholic Communications Congress',
-    url: '/portfolio/2.jpg',
-    slug: 'project2',
-    tags: '',
+    title: 'ACBC Social Media Tiles',
+    url: '/portfolio/acbc-social-tiles.jpg',
+    slug: 'acbc-social-media',
+    tags: 'social media',
+  },
+  {
+    title: 'National Centre for Evangelisation',
+    url: '/portfolio/nce-new-logo.jpg',
+    slug: 'nce-logo-redesign',
+    tags: 'logo, branding, redesign',
   },
   {
     title: 'Mass for You at Home',
@@ -37,21 +43,21 @@ export const portfolio:PortfolioType[] = [
     tags: '',
   },
   {
-    title: 'Australian Catholic Communications Congress',
-    url: '/portfolio/4.jpg',
-    slug: 'project4',
-    tags: '',
-  },
-  {
-    title: 'Australian Catholic Communications Congress',
-    url: '/portfolio/5.jpg',
-    slug: 'project5',
-    tags: '',
+    title: '2024-2025 Social Justice Statement',
+    url: '/portfolio/sjs2425-print.jpg',
+    slug: 'sjs2425-publication',
+    tags: 'print publication magazine',
   },
   {
     title: 'Australian Catholic Communications Congress',
     url: '/portfolio/mfyah-website-02.jpg',
     slug: 'mfyah-website-02',
     tags: 'mfyah website redesign strategy wordpress',
+  },
+  {
+    title: 'ACBC General Secretariat Portraits',
+    url: '/portfolio/acbc-staff-photos.jpg',
+    slug: 'acbc-general-secretariat',
+    tags: 'photography portraits people',
   },
 ];
