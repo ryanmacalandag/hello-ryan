@@ -7,12 +7,6 @@ export type PortfolioType = {
 
 export const portfolio:PortfolioType[] = [
   {
-    title: 'Youth Advisory Council',
-    url: '/portfolio/yac.png',
-    slug: 'yac-document',
-    tags: 'print, document',
-  },
-  {
     title: 'Australian Catholic Communications Congress',
     url: '/portfolio/accc2024-branding.png',
     slug: 'mediacongress-branding',

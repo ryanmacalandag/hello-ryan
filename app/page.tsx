@@ -3,7 +3,7 @@ import { portfolio } from "./data/portfolio";
 import Image from "next/image";
 import Footer from "./components/Footer";
 
-export default async function Home() {
+export default async function Page() {
 
   return (
     <section id="hero-01" className="w-full max-w-screen-xl mx-auto flex flex-col gap-12 sm:gap-16 lg:gap-20 px-6 md:px-16 py-24">
