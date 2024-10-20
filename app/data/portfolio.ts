@@ -7,10 +7,22 @@ export type PortfolioType = {
 
 export const portfolio:PortfolioType[] = [
   {
+    title: 'Filipino Researchers Group',
+    url: '/portfolio/filipino-researchers.jpg',
+    slug: 'filipino-researchers',
+    tags: 'event, branding',
+  },
+  {
     title: 'Australian Catholic Communications Congress',
     url: '/portfolio/accc2024-branding.png',
     slug: 'mediacongress-branding',
     tags: 'event, branding',
+  },
+  {
+    title: 'Reposit Customers',
+    url: '/portfolio/reposit-customers.jpg',
+    slug: 'reposit-customers',
+    tags: 'corporate, video, marketing',
   },
   {
     title: 'Australian Catholic Communications Congress',
@@ -23,6 +35,12 @@ export const portfolio:PortfolioType[] = [
     url: '/portfolio/acbc-social-tiles.jpg',
     slug: 'acbc-social-media',
     tags: 'social media',
+  },
+  {
+    title: 'Michael Galovic Iconography Exhibit',
+    url: '/portfolio/michael-galovic.jpg',
+    slug: 'michael-galovic',
+    tags: 'video',
   },
   {
     title: 'National Centre for Evangelisation',

@@ -11,6 +11,14 @@ export default async function Page() {
       <div className="flex flex-col gap-6 amd:gap-12 text-left md:text-center px-0 md:px-24 xl:px-32">
         <h1 className="w-full text-base md:text-xl font-sans font-bold text-orange-700 uppercase tracking-widest">Hello, I&apos;m Ryan Macalandag.</h1> 
         <p className="text-xl lg:text-2xl text-balance tracking-tight leading-normal italic">I have over 20 years experience in producing quality work for a wide mix of teams and organisations requiring creative thinking, innovative solutions, and strategic execution.</p>
+
+        <div className="w-full flex justify-center my-8 gap-4">
+          <a href="" className="bg-transparent hover:bg-orange-800/20 border-2 border-orange-800/70 font-sans font-bold tracking-wider text-xs text-orange-800 hover:text-stone-900 uppercase px-4 py-3 rounded-full transition duration-200" target="_blank">Curriculum Vitae</a>
+          <a href="https://www.youtube.com/@ryanmacalandag5279" className="bg-transparent hover:bg-orange-800/20 border-2 border-orange-800/70 font-sans font-bold tracking-wider text-xs text-orange-800 hover:text-stone-900 uppercase px-4 py-3 rounded-full transition duration-200" target="_blank">Video Production</a>
+          <a href="https://drive.google.com/file/d/1Nl2g4c7eY2uSImQrvbHTFPfH5m8ddBue/view?usp=sharing" className="bg-transparent hover:bg-orange-800/20 border-2 border-orange-800/70 font-sans font-bold tracking-wider text-xs text-orange-800 hover:text-stone-900 uppercase px-4 py-3 rounded-full transition duration-200" target="_blank">Photography</a>
+          <a href="https://drive.google.com/file/d/1xBWdDAM8HX6vAL8bdHMWGZ02V_D9GBuY/view?usp=sharing" className="bg-transparent hover:bg-orange-800/20 border-2 border-orange-800/70 font-sans font-bold tracking-wider text-xs text-orange-800 hover:text-stone-900 uppercase px-4 py-3 rounded-full transition duration-200" target="_blank">Graphic Design</a>
+        </div>
+
       </div>
 
       <div className="w-full max-w-screen-xl h-fit columns-1 md:columns-3xs lg:columns-xs gap-0 md:gap-6">
