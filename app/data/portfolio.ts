@@ -28,6 +28,13 @@ export const portfolio:PortfolioType[] = [
     link: 'https://youtu.be/V4t8SFut-rU?si=BhlgGUqwpJqRCvFi'
   },
   {
+    title: 'Kantakanta - Songs App',
+    url: '/portfolio/song-app.jpg',
+    slug: 'song-app',
+    tags: 'ui/ux, mobile',
+    link: 'https://www.figma.com/proto/wyPBXRYqZX82pEWDiScbjT/kantakanta?node-id=62-317&node-type=canvas&t=FAB1nJPt9xwExiuO-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3',
+  },
+  {
     title: 'Reposit Customers',
     url: '/portfolio/reposit-customers.jpg',
     slug: 'reposit-customers',

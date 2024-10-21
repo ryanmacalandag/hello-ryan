@@ -1,9 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { openGraphImage } from "./shared-metadata";
 
 export const metadata: Metadata = {
-  title: "Ryan Macalandag",
+  metadataBase: new URL('https://ryanmacalandag.com'),
+  title: {
+    default: 'Ryan Macalandag | Digital Media and Creative Communications',
+    template: '%s | Ryan Macalandag'
+  },
   description: "Profile, portfolio and links",
+  ...openGraphImage,
 };
 
 export default function RootLayout({
