@@ -2,7 +2,7 @@ import Link from "next/link";
 import { portfolio } from "./data/portfolio";
 import Image from "next/image";
 import Footer from "./components/Footer";
-import { BiLogoLinkedin, BiLogoGithub, BiSolidCamera, BiLogoFlickr, BiLogoYoutube, BiSolidGraduation, BiListCheck } from "react-icons/bi";
+import { BiLogoLinkedin, BiLogoGithub, BiSolidCamera, BiLogoFlickr, BiLogoYoutube, BiListCheck } from "react-icons/bi";
 
 export default async function Page() {
 
