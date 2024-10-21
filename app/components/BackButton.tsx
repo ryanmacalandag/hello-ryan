@@ -8,8 +8,8 @@ export default function BackButton() {
   const router = useRouter();
 
   return (
-    <button type="button" onClick={() => router.back()} className="w-10 h-10 flex justify-center items-center rounded-full border-2 border-neutral-800 m-4">
-      <BiX size={24} />
+    <button type="button" onClick={() => router.back()} className="w-8 h-8 flex justify-center items-center rounded-full border-2 border-neutral-800 bg-transparent hover:bg-pink-500/30 m-4 transition duration-300">
+      <BiX size={22} />
     </button>
   )
 }

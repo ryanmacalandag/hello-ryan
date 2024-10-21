@@ -73,6 +73,13 @@ export const portfolio:PortfolioType[] = [
     tags: 'print publication magazine',
   },
   {
+    title: 'Gabrielle and Shane Wedding',
+    url: '/portfolio/gabrielle-and-shane-wedding.jpg',
+    slug: 'gabrielle-and-shane-wedding',
+    tags: 'video, wedding',
+    link: 'https://www.youtube.com/watch?v=9Fc0nlKPuhQ',
+  },
+  {
     title: 'Australian Catholic Communications Congress',
     url: '/portfolio/mfyah-website-02.jpg',
     slug: 'mfyah-website-02',
@@ -82,6 +89,20 @@ export const portfolio:PortfolioType[] = [
     title: 'ACBC General Secretariat Portraits',
     url: '/portfolio/acbc-staff-photos.jpg',
     slug: 'acbc-general-secretariat',
-    tags: 'photography portraits people',
+    tags: 'photography, portraits',
+  },
+  {
+    title: 'Reposit App UI/UX Redesign',
+    url: '/portfolio/reposit-app.jpg',
+    slug: 'reposit-app-redesign',
+    tags: 'mobile app, UI/UX',
+    link: 'https://www.figma.com/proto/C1AcRSfzThwoXc1rCLS1AE/Reposit-App-UI?node-id=2-2&starting-point-node-id=282%3A2&t=tsICWkWytdgoZiww-1',
+  },
+  {
+    title: 'Refugee Sunday 2024',
+    url: '/portfolio/refugee-sunday.jpg',
+    slug: 'refugee-sunday',
+    tags: 'UI/UX, website',
+    link: 'https://www.figma.com/proto/L582qPW1C50enIDwi3xrNb/Migrant-and-Refugee-Resources?node-id=14-98&starting-point-node-id=2%3A2&t=4tyZXuHagMEfOAsi-1',
   },
 ];

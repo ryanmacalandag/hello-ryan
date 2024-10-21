@@ -14,10 +14,10 @@ export default async function Page() {
         <p className="text-xl lg:text-2xl text-balance tracking-tight leading-normal italic">I have over 20 years experience in producing quality work for a wide mix of teams and organisations requiring creative thinking, innovative solutions, and strategic execution.</p>
 
         <div className="w-full flex flex-col md:flex-row justify-center mt-4 md:mt-8 mb-8 gap-4">
-          <a href="https://drive.google.com/file/d/1tkYULJn7vnGtsDzEc8PmvESNaryj_PdD/view?usp=drive_link" className="flex justify-between items-center gap-4 bg-transparent hover:bg-pink-700 border-2 border-pink-700/70 font-sans font-bold tracking-0wider text-xs text-pink-700 hover:text-stone-100 uppercase px-4 py-3 rounded-full transition duration-200" target="_blank">Curriculum Vitae <BiRightArrowAlt></BiRightArrowAlt></a>
-          <a href="https://www.youtube.com/@ryanmacalandag5279" className="flex justify-between items-center gap-4 bg-transparent hover:bg-pink-700 border-2 border-pink-700/70 font-sans font-bold tracking-0wider text-xs text-pink-700 hover:text-stone-100 uppercase px-4 py-3 rounded-full transition duration-200" target="_blank">Video Production <BiRightArrowAlt></BiRightArrowAlt></a>
-          <a href="https://drive.google.com/file/d/1Nl2g4c7eY2uSImQrvbHTFPfH5m8ddBue/view?usp=sharing" className="flex justify-between items-center gap-4 bg-transparent hover:bg-pink-700 border-2 border-pink-700/70 font-sans font-bold tracking-0wider text-xs text-pink-700 hover:text-stone-100 uppercase px-4 py-3 rounded-full transition duration-200" target="_blank">Photography <BiRightArrowAlt></BiRightArrowAlt></a>
-          <a href="https://drive.google.com/file/d/1xBWdDAM8HX6vAL8bdHMWGZ02V_D9GBuY/view?usp=sharing" className="flex justify-between items-center gap-4 bg-transparent hover:bg-pink-700 border-2 border-pink-700/70 font-sans font-bold tracking-0wider text-xs text-pink-700 hover:text-stone-100 uppercase px-4 py-3 rounded-full transition duration-200" target="_blank">Graphic Design <BiRightArrowAlt></BiRightArrowAlt></a>
+          <a href="https://drive.google.com/file/d/1tkYULJn7vnGtsDzEc8PmvESNaryj_PdD/view?usp=drive_link" className="flex justify-between items-center gap-2 bg-transparent hover:bg-pink-700 border-2 border-pink-700/70 font-sans font-bold tracking-0wider text-xs text-pink-700 hover:text-stone-100 uppercase px-4 py-3 rounded-full transition duration-200" target="_blank">Curriculum Vitae <BiRightArrowAlt size={18}></BiRightArrowAlt></a>
+          <a href="https://www.youtube.com/@ryanmacalandag5279" className="flex justify-between items-center gap-2 bg-transparent hover:bg-pink-700 border-2 border-pink-700/70 font-sans font-bold tracking-0wider text-xs text-pink-700 hover:text-stone-100 uppercase px-4 py-3 rounded-full transition duration-200" target="_blank">Video Production <BiRightArrowAlt size={18}></BiRightArrowAlt></a>
+          <a href="https://drive.google.com/file/d/1Nl2g4c7eY2uSImQrvbHTFPfH5m8ddBue/view?usp=sharing" className="flex justify-between items-center gap-2 bg-transparent hover:bg-pink-700 border-2 border-pink-700/70 font-sans font-bold tracking-0wider text-xs text-pink-700 hover:text-stone-100 uppercase px-4 py-3 rounded-full transition duration-200" target="_blank">Photography <BiRightArrowAlt size={18}></BiRightArrowAlt></a>
+          <a href="https://drive.google.com/file/d/1xBWdDAM8HX6vAL8bdHMWGZ02V_D9GBuY/view?usp=sharing" className="flex justify-between items-center gap-2 bg-transparent hover:bg-pink-700 border-2 border-pink-700/70 font-sans font-bold tracking-0wider text-xs text-pink-700 hover:text-stone-100 uppercase px-4 py-3 rounded-full transition duration-200" target="_blank">Graphic Design <BiRightArrowAlt size={18}></BiRightArrowAlt></a>
         </div>
 
       </div>
@@ -47,8 +47,8 @@ export default async function Page() {
                 </Link>
 
                 <div className="flex flex-row justify-between items-center">
-                  <p className="text-base font-sans font-bold">{item.title}</p>
-                  <a href={item.link} className={ (item.link ? 'flex' : 'hidden') +  ' text-2xs font-sans font-bold uppercase tracking-wider rounded-full bg-neutral-700 hover:bg-neutral-900 text-white px-2 py-1 transition duration-300'} target="_blank">Open</a>
+                  <p className="text-sm font-sans leading-tight text-balance">{item.title}</p>
+                  <a href={item.link} className={ (item.link ? 'flex' : 'hidden') +  ' text-2xs font-sans font-bold uppercase tracking-wider rounded-full flex flex-shrink-0 bg-neutral-700 hover:bg-neutral-900 text-white px-2 py-1 transition duration-300'} target="_blank">Open link</a>
                 </div>
 
               </div>
