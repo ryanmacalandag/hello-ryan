@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Ryan Macalandag",
-  description: "Profile, portfolio and blog",
+  description: "Profile, portfolio and links",
 };
 
 export default function RootLayout({
