@@ -15,7 +15,7 @@ export const ProjectCard = ( {project}:ProjectCardProps ) : React.ReactNode => {
     >
       <Link
         href={'/portfolio/' + project.slug}
-        className="w-full group aspect-video md:aspect-video overflow-hidden shadow-xl bg-stone-600/60"
+        className="relative group w-full group aspect-video md:aspect-video overflow-hidden shadow-xl bg-stone-600/60"
       >
         <Image
           src={project.url}
@@ -24,11 +24,14 @@ export const ProjectCard = ( {project}:ProjectCardProps ) : React.ReactNode => {
           height={320}
           className='w-full h-full object-cover group-hover:scale-105 scale-100 md:group-hover:scale-105 saturate-100 group-hover:saturate-150 transition duration-300'
         />
+
+        {/* animated gradient overlay on hover */}
+        <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black/60 via-transparent to-transparent translate-y-full group-hover:-translate-y-0 transition duration-300'></div>
       </Link>
 
       <div className="flex flex-row justify-between projects-center">
         <p className="text-sm font-sans leading-tight text-balance">{project.title}</p>
-        <ProjectLinkButton link={project.url}></ProjectLinkButton>
+        <ProjectLinkButton link={project.link!}></ProjectLinkButton>
       </div>
 
     </div>

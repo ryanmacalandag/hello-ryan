@@ -18,7 +18,7 @@ export const ProjectDetails = ( {project}:ProjectDetailsPropsType ):React.ReactN
         </div>
         <div className='w-full flex justify-center md:justify-end items-center gap-3'>
           <ProjectTags tags={project.tags}></ProjectTags>
-          <ProjectLinkButton link={project.url}></ProjectLinkButton>
+          <ProjectLinkButton link={project.link!}></ProjectLinkButton>
         </div>
       </div>
       <Image
