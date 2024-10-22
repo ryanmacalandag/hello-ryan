@@ -12,7 +12,7 @@ type PortfolioGalleryProps = {
 const PortfolioGallery = ( props:PortfolioGalleryProps ) : React.ReactNode  => {
 
   return (
-    <section id="portfolio-gallery" className='w-full flex flex-col gap-4 md:gap-6'>
+    <section id="portfolio-gallery" className='w-full max-w-screen-2xl flex flex-col gap-4 md:gap-6'>
       {/* render filters */}
       <div className='w-full flex justify-center items-center px-6 md:px-12'>
         <Tags tags={alltags} filter={props.filter}></Tags>

@@ -1,13 +1,13 @@
 import { portfolio } from "./data/portfolio";
 import Footer from "./components/Footer";
 import PortfolioGallery from "./components/PortfolioGallery";
-import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 export default async function Page() {
 
   return (
     <>
-      <Header></Header>
+      <Hero></Hero>
       <PortfolioGallery portfolio={portfolio} filter='all' ></PortfolioGallery>
       <Footer></Footer>
     </>

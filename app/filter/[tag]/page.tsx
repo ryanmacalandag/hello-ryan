@@ -2,26 +2,22 @@ import React from 'react'
 import { portfolio } from '@/app/data/portfolio'
 import PortfolioGallery from '@/app/components/PortfolioGallery';
 import Footer from '@/app/components/Footer';
-// import PageHeader from '@/app/components/PageHeader';
-import Header from '@/app/components/Header';
+import Hero from '@/app/components/Hero';
+import { alltags } from '@/app/data/getAllTags';
 
 // Return a list of `params` to populate the [slug] dynamic segment
 export async function generateStaticParams() {
-  return portfolio.map((item) => ({
-    item: item.tags,
+  const tags = await alltags;
+  return tags.map((t) => ({
+    tag: t,
   }))
 }
 
 export default async function Page( { params }: { params: {tag:string} } ) {
-
-  const projects = await portfolio;
-  const filteredProjects = await projects.filter( (project) => project.tags.includes(params.tag))
-  console.log(params.tag)
-
+  const filteredProjects = await portfolio.filter( (project) => project.tags.includes(params.tag))
   return (
     <>
-      {/* <PageHeader></PageHeader> */}
-      <Header></Header>
+      <Hero></Hero>
       <PortfolioGallery portfolio={filteredProjects} filter={params.tag} ></PortfolioGallery>
       <Footer></Footer>
     </>
