@@ -2,7 +2,7 @@ import React from 'react'
 import { PortfolioType } from '../data/portfolio'
 import Image from 'next/image'
 import { ProjectTags } from './ProjectTags';
-import { BiRightArrowAlt } from 'react-icons/bi';
+import { ProjectLinkButton } from './ProjectLinkButton';
 
 type ProjectDetailsPropsType = {
   project: PortfolioType;
@@ -18,7 +18,7 @@ export const ProjectDetails = ( {project}:ProjectDetailsPropsType ):React.ReactN
         </div>
         <div className='w-full flex justify-center md:justify-end items-center gap-3'>
           <ProjectTags tags={project.tags}></ProjectTags>
-          <a href={project?.link} className={ (project?.link ? 'flex justify-between items-center' : 'hidden') +  ' text-2xs font-sans font-bold uppercase tracking-wider rounded-full text-nowrap bg-neutral-700 hover:bg-neutral-900 text-white pl-3 pr-2 py-1 transition duration-300'} target="_blank">Open link <BiRightArrowAlt size={14}></BiRightArrowAlt></a>
+          <ProjectLinkButton link={project.url}></ProjectLinkButton>
         </div>
       </div>
       <Image

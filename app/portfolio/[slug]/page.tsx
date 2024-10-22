@@ -15,7 +15,7 @@ export default async function Page( { params }: { params: {slug:string} } ) {
   const project = await portfolio.find((item) => item.slug == slug); 
 
   return (
-    <div className='relative w-full h-full flex flex-col justify-center items-center gap-4 px-4 md:px-16 py-8 md:py-12'>
+    <div className='relative w-full h-fit flex flex-col justify-center items-center gap-4 px-4 md:px-16 pt-8 md:pt-12 pb-20 lg:pb-24'>
       {project && <BackButton />}
       <ProjectDetails project={project!}></ProjectDetails>
     </div>
