@@ -4,7 +4,7 @@ export type PortfolioType = {
   slug: string; 
   tags: string[];
   link?: string;
-  tools?: string[];
+  tools: string[];
 };
 
 export const portfolio:PortfolioType[] = [
@@ -21,14 +21,15 @@ export const portfolio:PortfolioType[] = [
     url: '/portfolio/accc2024-branding.png',
     slug: 'mediacongress-branding',
     tags: ['event', 'branding'],
-    tools: ['wordpress','javascript', 'tailwind'],
+    tools: ['wordpress','javascript', 'tailwind','php','mysql'],
   },
   {
     title: 'Reposit Customers: Rob & Jen',
     url: '/portfolio/reposit-rob-jen.jpg',
     slug: 'reposit-rob-jen',
     tags: ['video', 'promo'],
-    link: 'https://youtu.be/V4t8SFut-rU?si=BhlgGUqwpJqRCvFi'
+    link: 'https://youtu.be/V4t8SFut-rU?si=BhlgGUqwpJqRCvFi',
+    tools: ['sony','premiere'],
   },
   {
     title: 'Kantakanta - Songs App',
@@ -52,7 +53,7 @@ export const portfolio:PortfolioType[] = [
     slug: 'media-congress-website-01',
     tags: ['event', 'website'],
     link: 'https://mediacongress.catholic.au/',
-    tools: ['wordpress','javascript','tailwind'],
+    tools: ['wordpress','javascript','tailwind','php','mysql'],
   },
   {
     title: 'ACBC Social Media Tiles',
