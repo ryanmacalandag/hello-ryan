@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased w-full h-full min-h-dvh flex flex-col justify-center items-center bg-paper-neutral`}
+        className={`antialiased w-full h-full flex flex-col justify-center items-center bg-paper-neutral`}
       >
         {children}
 
