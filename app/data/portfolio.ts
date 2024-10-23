@@ -134,7 +134,7 @@ export const portfolio:PortfolioType[] = [
     url: '/portfolio/papa-j-promo.jpg',
     slug: 'papa-j-promo',
     tags: ['video', 'promo'],
-    link: 'https://www.figma.com/proto/L582qPW1C50enIDwi3xrNb/Migrant-and-Refugee-Resources?node-id=14-98&starting-point-node-id=2%3A2&t=4tyZXuHagMEfOAsi-1',
+    link: 'https://www.youtube.com/watch?v=jEn-gdbJLi4',
     tools: ['premiere','sony'],
   },
 ];
