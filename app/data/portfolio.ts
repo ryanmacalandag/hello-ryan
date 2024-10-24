@@ -137,4 +137,12 @@ export const portfolio:PortfolioType[] = [
     link: 'https://www.youtube.com/watch?v=jEn-gdbJLi4',
     tools: ['premiere','sony'],
   },
+  {
+    title: 'CathNews Website Layout',
+    url: '/portfolio/cathnews-website.jpg',
+    slug: 'cathnews-website',
+    tags: ['website'],
+    link: 'https://cathnews.com',
+    tools: ['wordpress','php','mysql'],
+  },
 ];
