@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { openGraphImage } from "./shared-metadata";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ryanmacalandag.com'),
@@ -23,7 +24,7 @@ export default function RootLayout({
         className={`antialiased w-full h-full flex flex-col justify-center items-center bg-paper-neutral`}
       >
         {children}
-
+        <Analytics />
       </body>
     </html>
   );

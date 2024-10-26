@@ -10,7 +10,7 @@ export async function generateStaticParams() {
   }))
 }
 
-export default async function Page( { params }: { params: {slug:string} } ) {
+export default async function Page( { params }: { params: {slug:string}} ) {
   const { slug } = await params;
   const project = await portfolio.find((item) => item.slug == slug); 
 
