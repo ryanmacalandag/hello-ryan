@@ -107,13 +107,6 @@ export const portfolio:PortfolioType[] = [
     tools: ['wordpress','javascript','tailwind'],
   },
   {
-    title: 'ACBC General Secretariat Portraits',
-    url: '/portfolio/acbc-staff-photos.jpg',
-    slug: 'acbc-general-secretariat',
-    tags: ['photography', 'portraits'],
-    tools: ['sony','lightroom','photoshop'],
-  },
-  {
     title: 'Reposit App UI/UX Redesign',
     url: '/portfolio/reposit-app.jpg',
     slug: 'reposit-app-redesign',
