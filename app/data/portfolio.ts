@@ -9,12 +9,27 @@ export type PortfolioType = {
 
 export const portfolio:PortfolioType[] = [
   {
+    title: '2025-2026 Social Justice Statement',
+    url: '/portfolio/sjs2526-print.jpg',
+    slug: 'sjs2526-publication',
+    tags: ['publication', 'print'],
+    link: 'https://socialjustice.catholic.org.au/2025/08/06/signs-of-hope-on-the-edge-social-justice-statement-2025-2026/',
+    tools: ['indesign', 'photoshop', 'illustrator'],
+  },
+  {
     title: 'Filipino Tech Community Canberra',
     url: '/portfolio/ftcc-website.jpg',
     slug: 'ftcc-website',
     tags: ['website', 'branding'],
     link: 'https://ftcc.org.au',
     tools: ['nextjs','javascript','tailwind','typescipt'],
+  },
+  {
+    title: 'ACBC Annual Report 2024',
+    url: '/portfolio/acbc-annual-report-2024.jpg',
+    slug: 'acbc-annual-report-2024',
+    tags: ['publication', 'print', 'annual'],
+    tools: ['indesign', 'photoshop', 'illustrator'],
   },
   {
     title: 'Australian Catholic Communications Congress',
@@ -30,6 +45,22 @@ export const portfolio:PortfolioType[] = [
     tags: ['video', 'promo'],
     link: 'https://youtu.be/V4t8SFut-rU?si=BhlgGUqwpJqRCvFi',
     tools: ['sony','premiere'],
+  },
+  {
+    title: '75th Anniversary of the Pastoral Letter on Immigration',
+    url: '/portfolio/immigration-statement-2025-print.jpg',
+    slug: 'immigration-statement-2025-print',
+    tags: ['publication', 'print'],
+    link: 'https://s3.ap-southeast-2.amazonaws.com/acbcwebsite/Articles/Documents/ACBC/75th%20Pastoral%20Letter%20-%20ACMRO%20FINAL.pdf',
+    tools: ['indesign', 'photoshop', 'illustrator'],
+  },
+  {
+    title: 'ACBC Easter Message 2025',
+    url: '/portfolio/acbc-easter-message-2025.jpg',
+    slug: 'acbc-easter-message-2025',
+    tags: ['video', 'music'],
+    link: 'https://www.youtube.com/watch?v=CR4cvbGywc8',
+    tools: ['photoshop', 'premiere', 'garageband'],
   },
   {
     title: 'Kantakanta - Songs App',
@@ -98,6 +129,14 @@ export const portfolio:PortfolioType[] = [
     tags: ['video', 'wedding'],
     link: 'https://www.youtube.com/watch?v=9Fc0nlKPuhQ',
     tools: ['sony','premiere'],
+  },
+  {
+    title: 'Social Justice Statement 2025-2026',
+    url: '/portfolio/social-justice-statement-25-26.jpg',
+    slug: 'social-justice-statement-25-26',
+    tags: ['video', 'statement', 'promo'],
+    link: 'https://www.youtube.com/watch?v=PfYAxV6BLvs',
+    tools: ['sony','premiere', 'garageband'],
   },
   {
     title: 'MFYAH Stripe Integration',

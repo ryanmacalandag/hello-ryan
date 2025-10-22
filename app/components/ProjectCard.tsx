@@ -20,8 +20,8 @@ export const ProjectCard = ({ project }: ProjectCardProps): React.ReactNode => {
           alt="gallery project"
           width={320}
           height={640}
-          className="w-full origin-top
-           translate-y-0 group-hover:-translate-y-1/2 group-hover:scale-150 scale-105 md:group-hover:scale-150 saturate-100 group-hover:saturate-150 transition duration-300"
+          className="origin-top object-cover w-full h-full absolute top-0 left-0
+           translate-y-0 group-hover:scale-110 scale-100 md:group-hover:scale-120 saturate-100 group-hover:saturate-150 transition duration-300"
         />
 
         {/* animated gradient overlay on hover */}
