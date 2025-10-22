@@ -32,6 +32,13 @@ export const portfolio:PortfolioType[] = [
     tools: ['indesign', 'photoshop', 'illustrator'],
   },
   {
+    title: 'Professional Studio Portraits',
+    url: '/portfolio/professional-studio-portraits.jpg',
+    slug: 'professional-studio-portraits',
+    tags: ['photography', 'portraits', 'studio'],
+    tools: ['indesign', 'photoshop', 'lightroom'],
+  },
+  {
     title: 'Australian Catholic Communications Congress',
     url: '/portfolio/accc2024-branding.png',
     slug: 'mediacongress-branding',
@@ -100,6 +107,13 @@ export const portfolio:PortfolioType[] = [
     slug: 'acbc-social-media',
     tags: ['socials', 'graphics'],
     tools: ['photoshop'],
+  },
+  {
+    title: 'Nature and Landscape Photography',
+    url: '/portfolio/nature-landscape-photography.jpg',
+    slug: 'nature-landscape-photography',
+    tags: ['photography', 'landscape', 'nature'],
+    tools: ['sony','lightroom','photoshop'],
   },
   {
     title: 'To Witness and Accompany - Clergy Formation',
@@ -176,6 +190,27 @@ export const portfolio:PortfolioType[] = [
     tools: ['wordpress','javascript','tailwind'],
   },
   {
+    title: 'Reposit Website Redesign',
+    url: '/portfolio/reposit-website-redesign.png',
+    slug: 'reposit-website-redesign',
+    tags: ['website', 'nodejs', 'react', 'branding', 'video', 'photo', 'corporate'],
+    tools: ['javascript','tailwind'],
+  },
+  {
+    title: 'Filipino Restaurant Food Photography',
+    url: '/portfolio/filipino-restaurant-food.jpg',
+    slug: 'filipino-restaurant-food',
+    tags: ['photography', 'food'],
+    tools: ['sony','lightroom','photoshop'],
+  },
+  {
+    title: 'Reposit Product Photo',
+    url: '/portfolio/reposit-product-photo.jpg',
+    slug: 'reposit-product-photo',
+    tags: ['photography', 'product'],
+    tools: ['photoshop','lightroom','sony'],
+  },
+  {
     title: 'Reposit App UI/UX Redesign',
     url: '/portfolio/reposit-app.jpg',
     slug: 'reposit-app-redesign',
@@ -227,5 +262,12 @@ export const portfolio:PortfolioType[] = [
     slug: 'ignitia-branding-2',
     tags: ['branding', 'graphics', 'logo'],
     tools: ['lightroom','photoshop', 'nikon'],
+  },
+  {
+    title: 'Portrait - University Professor',
+    url: '/portfolio/portrait-university-professor.jpg',
+    slug: 'portrait-university-professor',
+    tags: ['photography', 'portraits', 'branding'],
+    tools: ['lightroom','photoshop', 'sony'],
   },
 ];
