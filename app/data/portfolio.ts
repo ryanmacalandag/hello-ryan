@@ -63,6 +63,14 @@ export const portfolio:PortfolioType[] = [
     tools: ['photoshop', 'premiere', 'garageband'],
   },
   {
+    title: 'Corporate Photography Reposit Power Employees',
+    url: '/portfolio/photo-reposit-power-employees.jpg',
+    slug: 'photo-reposit-power-employees',
+    tags: ['photography', 'branding', 'portraits'],
+    link: 'https://www.repositpower.com',
+    tools: ['photoshop', 'lightroom'],
+  },
+  {
     title: 'Kantakanta - Songs App',
     url: '/portfolio/song-app.jpg',
     slug: 'song-app',
@@ -94,6 +102,14 @@ export const portfolio:PortfolioType[] = [
     tools: ['photoshop'],
   },
   {
+    title: 'To Witness and Accompany - Clergy Formation',
+    url: '/portfolio/to-witness-and-accompany-clergy-formation.jpg',
+    slug: 'to-witness-and-accompany-clergy-formation',
+    tags: ['video', 'corporate'],
+    link: 'https://youtu.be/dH0WrNU_1BU',
+    tools: ['sony','premiere', 'after-effects'],
+  },
+  {
     title: 'Michael Galovic Iconography Exhibit',
     url: '/portfolio/michael-galovic.jpg',
     slug: 'michael-galovic',
@@ -107,6 +123,13 @@ export const portfolio:PortfolioType[] = [
     slug: 'nce-logo-redesign',
     tags: ['branding'],
     tools: ['illustrator'],
+  },
+  {
+    title: '2024 People Portraits',
+    url: '/portfolio/people-portraits-2024.jpg',
+    slug: '2024-people-portraits',
+    tags: ['photography', 'portraits'],
+    tools: ['sony','lightroom','photoshop'],
   },
   {
     title: 'Mass for You at Home',
@@ -129,6 +152,13 @@ export const portfolio:PortfolioType[] = [
     tags: ['video', 'wedding'],
     link: 'https://www.youtube.com/watch?v=9Fc0nlKPuhQ',
     tools: ['sony','premiere'],
+  },
+  {
+    title: 'ACBC Staff Photography 2024',
+    url: '/portfolio/acbc-staff-photos.jpg',
+    slug: 'acbc-staff-photography-2024',
+    tags: ['photography', 'portraits'],
+    tools: ['sony','photoshop','lightroom'],
   },
   {
     title: 'Social Justice Statement 2025-2026',
@@ -176,5 +206,26 @@ export const portfolio:PortfolioType[] = [
     tags: ['website'],
     link: 'https://cathnews.com',
     tools: ['wordpress','php','mysql'],
+  },
+  {
+    title: 'Commercial Photography - Women',
+    url: '/portfolio/commercial-photography-women.jpg',
+    slug: 'commercial-photography-women',
+    tags: ['photography', 'portraits', 'branding'],
+    tools: ['sony','lightroom','photoshop'],
+  },
+  {
+    title: 'Ignitia Studios - Commercial Photography',
+    url: '/portfolio/ignitia-commercial-photography.jpg',
+    slug: 'ignitia-commercial-photography',
+    tags: ['photography', 'commercial', 'branding'],
+    tools: ['lightroom','photoshop', 'nikon'],
+  },
+  {
+    title: 'Ignitia Studios - Branding',
+    url: '/portfolio/ignitia-branding-2.jpg',
+    slug: 'ignitia-branding-2',
+    tags: ['branding', 'graphics', 'logo'],
+    tools: ['lightroom','photoshop', 'nikon'],
   },
 ];
