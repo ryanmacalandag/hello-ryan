@@ -23,7 +23,7 @@ export default function Hero() {
         </h1>
         <p className="text-lg sm:text-xl lg:text-3xl text-balance tracking-tight italic">
           More than 20 years creating, designing, writing, collaborating,
-          developing, ideating, framing, exporting, sharing, publishing,
+          ideating, framing, exporting, capturing, publishing, broadcasting,
           printing and producing quality work.
         </p>
 

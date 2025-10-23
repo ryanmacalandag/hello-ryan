@@ -70,7 +70,15 @@ export const portfolio:PortfolioType[] = [
     tools: ['photoshop', 'premiere', 'garageband'],
   },
   {
-    title: 'Corporate Photography Reposit Power Employees',
+    title: 'Podcast - Idolly Talking',
+    url: '/portfolio/podcast-idolly-talking.jpg',
+    slug: 'podcast-idolly-talking',
+    tags: ['podcast', 'audio', 'music'],
+    link: 'https://open.spotify.com/show/3XaPavF0yI1utiQp17uQWy',
+    tools: ['premiere', 'audition', 'garageband', 'spotify'],
+  },
+  {
+    title: 'Corporate Photography - Reposit Power Employees',
     url: '/portfolio/photo-reposit-power-employees.jpg',
     slug: 'photo-reposit-power-employees',
     tags: ['photography', 'branding', 'portraits'],
@@ -92,6 +100,14 @@ export const portfolio:PortfolioType[] = [
     tags: ['video', 'promo'],
     link: 'https://youtu.be/9kTQbSJkCDg?si=gWu2vUdXGuiQ7pGe',
     tools: ['sony','premiere'],
+  },
+  {
+    title: 'ACBC Mediablog Podcast',
+    url: '/portfolio/podcast-mediablog.jpg',
+    slug: 'acbc-mediablog',
+    tags: ['podcast', 'audio', 'music'],
+    link: 'https://open.spotify.com/show/0AbGUhBkjb8qIX5MFe12CB',
+    tools: ['premiere', 'audition', 'garageband', 'spotify'],
   },
   {
     title: 'Australian Catholic Communications Congress',
