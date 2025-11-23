@@ -30,14 +30,6 @@ export default function Hero() {
         <div className="w-full flex flex-row md:flex-row justify-start md:justify-center items-center mt-4 md:mt-8 mb-8 gap-0 sm:gap-2">
           <Link
             target="_blank"
-            title="Curriculum Vitae"
-            href="https://drive.google.com/file/d/1tkYULJn7vnGtsDzEc8PmvESNaryj_PdD/view?usp=drive_link"
-            className="bg-orange-600 hover:brightness-150 hover:-translate-y-1 border-2 border-orange-600/70 font-sans font-bold tracking-wider text-xs text-orange-100 hover:text-stone-100 uppercase p-2 rounded-full transition duration-200 scale-90 sm:scale-100"
-          >
-            <BiListCheck size={24}></BiListCheck>
-          </Link>
-          <Link
-            target="_blank"
             title="Linkedin"
             href="https://www.linkedin.com/in/ryanmacalandag/"
             className="bg-orange-600 hover:brightness-150 hover:-translate-y-1 border-2 border-orange-600/70 font-sans font-bold tracking-wider text-xs text-orange-100 hover:text-stone-100 uppercase p-2 rounded-full transition duration-200 scale-90 sm:scale-100"
