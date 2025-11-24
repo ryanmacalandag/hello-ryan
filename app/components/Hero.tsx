@@ -5,7 +5,6 @@ import {
   BiLogoGithub,
   BiSolidCamera,
   BiLogoFlickr,
-  BiListCheck,
   BiSolidVideo,
   BiSolidBrushAlt,
   BiLogoBehance,
