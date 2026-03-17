@@ -17,6 +17,13 @@ export const portfolio:PortfolioType[] = [
     tools: ['indesign', 'photoshop', 'illustrator'],
   },
   {
+    title: 'ACBC Staff Portraits 2026',
+    url: '/portfolio/acbc-staff-photos-2026.jpg',
+    slug: 'acbc-staff-photography-2026',
+    tags: ['photography', 'portraits'],
+    tools: ['sony','lightroom', 'photoshop'],
+  },
+  {
     title: 'Filipino Tech Community Canberra',
     url: '/portfolio/ftcc-website.jpg',
     slug: 'ftcc-website',
@@ -139,6 +146,14 @@ export const portfolio:PortfolioType[] = [
     tools: ['illustrator'],
   },
   {
+    title: 'Misa Bidyadanga',
+    url: '/portfolio/misa-bidjadanga-2024.jpg',
+    slug: 'misa-bidyadanga-2024',
+    tags: ['video', 'documentary'],
+    link: 'https://youtu.be/xyz123https://www.youtube.com/watch?v=8Nq8lpzUa34',
+    tools: ['sony','premiere'],
+  },
+  {
     title: '2024 People Portraits',
     url: '/portfolio/people-portraits-2024.jpg',
     slug: '2024-people-portraits',
@@ -171,8 +186,24 @@ export const portfolio:PortfolioType[] = [
     title: 'ACBC Staff Photography 2024',
     url: '/portfolio/acbc-staff-photos.jpg',
     slug: 'acbc-staff-photography-2024',
-    tags: ['photography', 'portraits'],
+    tags: ['photography', 'portraits'], 
     tools: ['sony','photoshop','lightroom'],
+  },
+  {
+    title: 'Fr Khalid - National Vocation Awareness Week 2022',
+    url: '/portfolio/fr-khalid-vocation-2022.jpg',
+    slug: 'fr-khalid-vocation-2022',
+    link: 'https://www.youtube.com/watch?v=zgi1JEKSCUs',
+    tags: ['video', 'documentary', 'institutional'],
+    tools: ['sony','premiere'],
+  },
+  {
+    title: 'Fr Stephen - National Vocation Awareness Week 2022',
+    url: '/portfolio/fr-stephen-vocation-week-2022.jpg',
+    slug: 'fr-stephen-vocation-2022',
+    link: 'https://www.youtube.com/watch?v=Z2HGz7m_N7E',
+    tags: ['video', 'documentary', 'institutional'],
+    tools: ['sony','premiere'],
   },
   {
     title: 'Social Justice Statement 2025-2026',
@@ -217,6 +248,14 @@ export const portfolio:PortfolioType[] = [
     tags: ['uiux', 'mobile', 'prototype'],
     link: 'https://www.figma.com/proto/C1AcRSfzThwoXc1rCLS1AE/Reposit-App-UI?node-id=2-2&starting-point-node-id=282%3A2&t=tsICWkWytdgoZiww-1',
     tools: ['figma','sketch','react-native'],
+  },
+  {
+    title: 'University of Canberra Public Hospital - Open Day',
+    url: '/portfolio/uc-hospital-2018.jpg',
+    slug: 'uc-hospital-open-day',
+    tags: ['video', 'report', 'institutional'],
+    link: 'https://www.youtube.com/watch?v=Q_qEU9PCJPI',
+    tools: ['davinci','nikon'],
   },
   {
     title: 'Refugee Sunday 2024',
@@ -269,5 +308,13 @@ export const portfolio:PortfolioType[] = [
     slug: 'portrait-university-professor',
     tags: ['photography', 'portraits', 'branding'],
     tools: ['lightroom','photoshop', 'sony'],
+  },
+  {
+    title: 'Plan International - Camotes Project Documentary',
+    url: '/portfolio/plan-camotes-2015.jpg',
+    slug: 'plan-camotes-2015',
+    tags: ['video', 'documentary'],
+    tools: ['nikon','davinci','sony-vegas'],
+    link: 'https://www.youtube.com/watch?v=1ZSEAF-Inws',
   },
 ];
