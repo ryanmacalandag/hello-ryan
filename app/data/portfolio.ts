@@ -17,13 +17,6 @@ export const portfolio:PortfolioType[] = [
     tools: ['indesign', 'photoshop', 'illustrator'],
   },
   {
-    title: 'ACBC Staff Portraits 2026',
-    url: '/portfolio/acbc-staff-photos-2026.jpg',
-    slug: 'acbc-staff-photography-2026',
-    tags: ['photography', 'portraits'],
-    tools: ['sony','lightroom', 'photoshop'],
-  },
-  {
     title: 'Filipino Tech Community Canberra',
     url: '/portfolio/ftcc-website.jpg',
     slug: 'ftcc-website',
