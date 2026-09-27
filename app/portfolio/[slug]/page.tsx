@@ -3,6 +3,11 @@ import { portfolio } from '@/app/data/portfolio';
 import BackButton from '@/app/components/BackButton';
 import { ProjectDetails } from '@/app/components/ProjectDetails';
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
+// Remove this opt-out after verifying the segment passes validation without it.
+// See: https://nextjs.org/docs/app/guides/migrating-to-cache-components
+export const instant = false;
+
 // Return a list of `params` to populate the [slug] dynamic segment
 export async function generateStaticParams() {
   return portfolio.map((item) => ({

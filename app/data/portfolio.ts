@@ -9,6 +9,14 @@ export type PortfolioType = {
 
 export const portfolio:PortfolioType[] = [
   {
+    title: 'Dickson Backpacker Website',
+    url: '/portfolio/dicksonbackpacker-mockup.jpeg',
+    slug: 'paycrunchr-xyz',
+    tags: ['branding', 'website', 'wordpress','photography'],
+    link: 'https://dicksonbackpacker.com.au',
+    tools: ['illustrator', 'wordpress', 'html', 'css', 'php','mysql','adobe', 'lightroonm'],
+  },
+  {
     title: 'PayCrunchr.xyz',
     url: '/portfolio/paycrunchr-xyz.png',
     slug: 'paycrunchr-xyz',

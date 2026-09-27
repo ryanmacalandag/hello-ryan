@@ -5,6 +5,11 @@ import Footer from '@/app/components/Footer';
 import Hero from '@/app/components/Hero';
 import { alltools } from '@/app/data/getAllTools';
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
+// Remove this opt-out after verifying the segment passes validation without it.
+// See: https://nextjs.org/docs/app/guides/migrating-to-cache-components
+export const instant = false;
+
 // Return a list of `params` to populate the [tool] dynamic segment
 export async function generateStaticParams() {
   const tools = await alltools;
@@ -13,7 +18,8 @@ export async function generateStaticParams() {
   }))
 }
 
-export default async function Page( { params }: { params: {tool:string} } ) {
+export default async function Page(props: { params: Promise<{tool:string}> }) {
+  const params = await props.params;
   const filteredProjects = await portfolio.filter( (project) => project.tools!.includes(params.tool))
   return (
     <>
@@ -22,5 +28,4 @@ export default async function Page( { params }: { params: {tool:string} } ) {
       <Footer></Footer>
     </>
   )
-
 }

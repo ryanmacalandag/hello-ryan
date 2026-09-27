@@ -15,6 +15,8 @@ const nextConfig = {
     locales: ['en-US'],
     defaultLocale: 'en-US',
   },
+  allowedDevOrigins: ['192.168.50.91'],
+  cacheComponents: true,
 };
 
 export default nextConfig;

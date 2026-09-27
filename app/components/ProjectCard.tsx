@@ -22,6 +22,7 @@ export const ProjectCard = ({ project }: ProjectCardProps): React.ReactNode => {
           height={640}
           className="origin-top object-cover w-full h-full absolute top-0 left-0
            translate-y-0 group-hover:scale-110 scale-100 md:group-hover:scale-120 saturate-100 group-hover:saturate-150 transition duration-300"
+          loading="lazy" 
         />
 
         {/* animated gradient overlay on hover */}
