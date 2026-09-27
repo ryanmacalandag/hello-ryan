@@ -10,7 +10,7 @@ export type PortfolioType = {
 export const portfolio:PortfolioType[] = [
   {
     title: 'PayCrunchr.xyz',
-    url: '/portfolio/paycrunchr-xyz.jpg',
+    url: '/portfolio/not-found.jpg',
     slug: 'paycrunchr-xyz',
     tags: ['web-app'],
     link: 'https://paycrunchr.xyz',
