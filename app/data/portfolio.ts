@@ -9,6 +9,14 @@ export type PortfolioType = {
 
 export const portfolio:PortfolioType[] = [
   {
+    title: 'PayCrunchr.xyz',
+    url: '/portfolio/paycrunchr-xyz.jpg',
+    slug: 'paycrunchr-xyz',
+    tags: ['web-app'],
+    link: 'https://paycrunchr.xyz',
+    tools: ['nextjs', 'v0', 'react','vscode'],
+  },
+  {
     title: '2025-2026 Social Justice Statement',
     url: '/portfolio/sjs2526-print.jpg',
     slug: 'sjs2526-publication',
