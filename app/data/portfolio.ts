@@ -9,16 +9,24 @@ export type PortfolioType = {
 
 export const portfolio:PortfolioType[] = [
   {
+    title: 'Misa Bidyadanga',
+    url: '/portfolio/misa-bidjadanga-2024.jpg',
+    slug: 'misa-bidyadanga-2024',
+    tags: ['video', 'documentary'],
+    link: 'https://youtu.be/xyz123https://www.youtube.com/watch?v=8Nq8lpzUa34',
+    tools: ['sony','premiere'],
+  },
+  {
     title: 'Dickson Backpacker Website',
-    url: '/portfolio/dicksonbackpacker-mockup.jpeg',
-    slug: 'paycrunchr-xyz',
+    url: '/portfolio/dicksonbackpacker-full.jpeg',
+    slug: 'dickson-backpacker',
     tags: ['branding', 'website', 'wordpress','photography'],
     link: 'https://dicksonbackpacker.com.au',
     tools: ['illustrator', 'wordpress', 'html', 'css', 'php','mysql','adobe', 'lightroonm'],
   },
   {
     title: 'PayCrunchr.xyz',
-    url: '/portfolio/paycrunchr-xyz.png',
+    url: '/portfolio/paycrunchr-xyz.jpeg',
     slug: 'paycrunchr-xyz',
     tags: ['web-app'],
     link: 'https://paycrunchr.xyz',
@@ -97,7 +105,7 @@ export const portfolio:PortfolioType[] = [
     title: 'Kantakanta - Songs App',
     url: '/portfolio/song-app.jpg',
     slug: 'song-app',
-    tags: ['uiux', 'mobile', 'prototype'],
+    tags: ['uiux', 'mobile', 'prototype','web-app'],
     link: 'https://www.figma.com/proto/wyPBXRYqZX82pEWDiScbjT/kantakanta?node-id=62-317&node-type=canvas&t=FAB1nJPt9xwExiuO-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3',
     tools: ['figma'],
   },
@@ -155,14 +163,6 @@ export const portfolio:PortfolioType[] = [
     tools: ['illustrator'],
   },
   {
-    title: 'Misa Bidyadanga',
-    url: '/portfolio/misa-bidjadanga-2024.jpg',
-    slug: 'misa-bidyadanga-2024',
-    tags: ['video', 'documentary'],
-    link: 'https://youtu.be/xyz123https://www.youtube.com/watch?v=8Nq8lpzUa34',
-    tools: ['sony','premiere'],
-  },
-  {
     title: '2024 People Portraits',
     url: '/portfolio/people-portraits-2024.jpg',
     slug: '2024-people-portraits',
@@ -191,13 +191,13 @@ export const portfolio:PortfolioType[] = [
     link: 'https://www.youtube.com/watch?v=9Fc0nlKPuhQ',
     tools: ['sony','premiere'],
   },
-  {
-    title: 'ACBC Staff Photography 2024',
-    url: '/portfolio/acbc-staff-photos.jpg',
-    slug: 'acbc-staff-photography-2024',
-    tags: ['photography', 'portraits'], 
-    tools: ['sony','photoshop','lightroom'],
-  },
+  // {
+  //   title: 'ACBC Staff Photography 2024',
+  //   url: '/portfolio/acbc-staff-photos.jpg',
+  //   slug: 'acbc-staff-photography-2024',
+  //   tags: ['photography', 'portraits'], 
+  //   tools: ['sony','photoshop','lightroom'],
+  // },
   {
     title: 'Fr Khalid - National Vocation Awareness Week 2022',
     url: '/portfolio/fr-khalid-vocation-2022.jpg',
