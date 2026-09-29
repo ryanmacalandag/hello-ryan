@@ -25,6 +25,14 @@ export const portfolio:PortfolioType[] = [
     tools: ['illustrator', 'wordpress', 'html', 'css', 'php','mysql','adobe', 'lightroonm'],
   },
   {
+    title: 'PTE50.com - PTE Reviewer',
+    url: '/portfolio/pte50.jpeg',
+    slug: 'pte50',
+    tags: ['web-app','website'],
+    link: 'https://pte50.com',
+    tools: ['nextjs', 'v0', 'react','vscode'],
+  },
+  {
     title: 'PayCrunchr.xyz',
     url: '/portfolio/paycrunchr-xyz.jpeg',
     slug: 'paycrunchr-xyz',
@@ -46,6 +54,14 @@ export const portfolio:PortfolioType[] = [
     slug: 'ftcc-website',
     tags: ['website', 'branding'],
     link: 'https://ftcc.org.au',
+    tools: ['nextjs','javascript','tailwind','typescipt'],
+  },
+  {
+    title: 'PTE Fluent Web App',
+    url: '/portfolio/pte-fluent.jpeg',
+    slug: 'pte-fluent',
+    tags: ['website', 'branding','webapp'],
+    link: 'https://pte-fluent.vercel.com',
     tools: ['nextjs','javascript','tailwind','typescipt'],
   },
   {
@@ -161,6 +177,14 @@ export const portfolio:PortfolioType[] = [
     slug: 'nce-logo-redesign',
     tags: ['branding'],
     tools: ['illustrator'],
+  },
+  {
+    title: 'Free QR Coder',
+    url: '/portfolio/freeqrcodr.jpeg',
+    slug: 'freeqrcodr-xyz',
+    tags: ['ai','mockup','web-app'],
+    link: 'https://freeqrcodr.xyz',
+    tools: ['v0','vercel','nextjs','vscode'],
   },
   {
     title: '2024 People Portraits',
