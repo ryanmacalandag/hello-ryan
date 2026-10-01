@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { openGraphImage } from "./shared-metadata";
 import { Analytics } from "@vercel/analytics/next";
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
@@ -11,11 +10,57 @@ export const instant = false;
 export const metadata: Metadata = {
   metadataBase: new URL('https://ryanmacalandag.com'),
   title: {
-    default: 'Ryan Macalandag | Digital Media and Creative Communications',
+    default: 'Ryan Macalandag | Digital Media Producer and Communications Strategist in Canberra',
     template: '%s | Ryan Macalandag'
   },
-  description: "Profile, portfolio and links",
-  ...openGraphImage,
+  description: "A results-driven Digital Media Producer and Communications Strategist based in Camnberra with over 20 years of expertise across strategic communications, media production, and brand development.",
+  openGraph: {
+    title: 'Ryan Macalandag | Digital Media Producer and Communications Strategist in Canberra',
+    description:
+      'A results-driven Digital Media Producer and Communications Strategist based in Camnberra with over 20 years of expertise across strategic communications, media production, and brand development.',
+    url: 'https://devtools.ryanmacalandag.com',
+    siteName: 'DevTools',
+    type: 'website',
+    images: [
+      {
+        url: '/opengraph-image.jpg',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ryan Macalandag | Digital Media Producer and Communications Strategist in Canberra',
+    description: 'A results-driven Digital Media Producer and Communications Strategist based in Camnberra with over 20 years of expertise across strategic communications, media production, and brand development.',
+    images: ['/opengraph-image.jpg'],
+  },
+  alternates: {
+    canonical: '/',
+  },
+  manifest: '/site.webmanifest',
+  icons: {
+    icon: [
+      {
+        url: '/favicon.ico',
+        type: 'image/x-icon',
+      },
+      {
+        url: '/favicon-32x32.png',
+        type: 'image/png',
+        sizes: '32x32',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/favicon-32x32.png', 
+        type: 'image/png',
+        sizes: '32x32',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ],
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({

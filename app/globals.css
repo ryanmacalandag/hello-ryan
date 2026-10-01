@@ -10,11 +10,10 @@
   --background: #f9f8f8;
   --foreground: #171717;
 
-  --font-heading: 'Space Grotesk', Arial, Helvetica, sans-serif;
-  --font-sans: 'Noto Sans', Arial, Helvetica, sans-serif;
-  --font-serif: 'Noto Serif', Arial, Helvetica, sans-serif;
-  --font-mono: 'Noto Sans', Arial, Helvetica, sans-serif;
-
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-sans: 'Noto Sans', sans-serif;
+  --font-serif: 'Noto Serif', sans-serif;
+  --font-mono: 'Noto Sans', sans-serif;
 }
 
 /* @media (prefers-color-scheme: dark) {
